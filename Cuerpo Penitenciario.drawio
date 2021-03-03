@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-03T15:10:34.027Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="mZ8E5pQSchODTfLzlZhH" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-03T15:13:21.661Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="ciyFIGLxVoqV7R4a-4IV" version="14.4.3" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1673" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#114B5F" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -676,7 +676,7 @@
         <mxCell id="PtyAQa9wjJP-EsEpmb2g-98" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;strokeColor=#028090;fontColor=#E4FDE1;" parent="PtyAQa9wjJP-EsEpmb2g-97" vertex="1">
           <mxGeometry width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="PtyAQa9wjJP-EsEpmb2g-99" value="nivel_educativo: varchar(200) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#028090;fontColor=#E4FDE1;" parent="PtyAQa9wjJP-EsEpmb2g-97" vertex="1">
+        <mxCell id="PtyAQa9wjJP-EsEpmb2g-99" value="nivel_educativo: varchar(100) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#028090;fontColor=#E4FDE1;" parent="PtyAQa9wjJP-EsEpmb2g-97" vertex="1">
           <mxGeometry x="30" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PtyAQa9wjJP-EsEpmb2g-100" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.009;entryY=0.233;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=ERoneToMany;endFill=0;strokeColor=#FFFFFF;fontColor=#000000;labelBackgroundColor=#ffffff;" parent="1" source="PtyAQa9wjJP-EsEpmb2g-94" target="wjLTxVtHtaOY_qUAfeCB-94" edge="1">
