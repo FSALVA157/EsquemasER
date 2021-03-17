@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-17T14:09:53.442Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="57hbqYcf0YRN7QI3PtQ7" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-17T14:10:55.717Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="0EajEdI-6uBIe-hvLQhF" version="14.4.8" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#114B5F" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -487,7 +487,7 @@
         <mxCell id="umECNE4wngBMGNsoTws7-9" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#ffcd28;top=0;left=0;bottom=0;right=0;strokeColor=#d79b00;fontColor=#000000;align=left;strokeWidth=1;gradientColor=#ffa500;spacingLeft=6;" vertex="1" parent="umECNE4wngBMGNsoTws7-8">
           <mxGeometry width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="umECNE4wngBMGNsoTws7-10" value="id: varchar(200) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#ffcd28;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#d79b00;fontColor=#000000;strokeWidth=1;gradientColor=#ffa500;" vertex="1" parent="umECNE4wngBMGNsoTws7-8">
+        <mxCell id="umECNE4wngBMGNsoTws7-10" value="departamento_id int NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#ffcd28;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#d79b00;fontColor=#000000;strokeWidth=1;gradientColor=#ffa500;" vertex="1" parent="umECNE4wngBMGNsoTws7-8">
           <mxGeometry x="30" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PtyAQa9wjJP-EsEpmb2g-34" value="sector" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;" parent="1" vertex="1">
@@ -944,6 +944,14 @@
         </mxCell>
         <mxCell id="8QUwjKecwwpgmiTrnMkM-4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FFFFFF;endFill=0;endArrow=ERoneToMany;" parent="1" source="PtyAQa9wjJP-EsEpmb2g-11" target="8QUwjKecwwpgmiTrnMkM-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="umECNE4wngBMGNsoTws7-11" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;endFill=0;endArrow=ERoneToMany;" edge="1" parent="1" source="PtyAQa9wjJP-EsEpmb2g-19" target="umECNE4wngBMGNsoTws7-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1600" y="389" />
+              <mxPoint x="1600" y="585" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
